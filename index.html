@@ -1,1 +1,214 @@
-Hello Word
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Bojun (Jessica) Wang</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <!--<a class="nav-item nav-link" href="#">About</a>-->
+      <a class="nav-item nav-link" href="#">Resume</a>
+      <!--<a class="nav-item nav-link" href="#">Contact me</a>-->
+    </div>
+  </div>
+
+</nav>
+<br>
+<br>
+<br>
+
+
+
+<!--<div class="carousel-wrapper">
+      <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators middle">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active" id="slide1">
+            <img src="/web/20170327091253im_/http://www.secret-sharing.com/figures/construction.png" width="795" height="50" alt=""/>
+            <div class="carousel-caption">
+              <h4>Construction Phase</h4>
+              <p>
+                A secret is splitted into multiple parts called shares during the construction phase. The most popular way of doing this is the Fiar Shamir's polynomial method in his paper "How to share a secret."
+              </p>
+            </div>
+          </div>
+          <div class="item" id="slide2">
+            <!--
+            <img src="assets/carousel_img/slide-02.jpg" alt="">
+            -->
+            <!--
+            <img src="/web/20170327091253im_/http://www.secret-sharing.com/figures/distribution.png" width="778" height="46" alt="">
+            <div class="carousel-caption">
+              <h4>Distrubing Phase</h4>
+              <p>
+                The shares of the secret was transfered in a secure chanel to its legal owners in this phase, after that, all the shares and secret must be deleted.
+              </p>
+            </div>
+          </div>
+          <div class="item" id="slide3">-->
+            <!--
+            <img src="assets/carousel_img/slide-03.jpg" alt="">-->
+            <!--
+            <img src="/web/20170327091253im_/http://www.secret-sharing.com/figures/reconstruction.png" width="900" height="46" alt="">
+            <div class="carousel-caption">
+              <h4>Reconstruction Phase</h4>
+              <p>
+                The owners of shares reconstruct the original secret togethor in this phase. If they collaborate correctly, they will get the right secret.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      </div>
+    </div><!--carousel-->
+  
+
+
+
+
+<div class="container marketing">
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">About me</h2>
+      <p>I am a 3rd year PhD student in the <a href="https://www.ics.uci.edu/">Department of Computer Science</a> at University of California, Irvine, working with <a href="http://web.cs.ucla.edu/~harryxu/">Prof. Harry Xu</a> and the Analysis for Large-Scale Systems (AnalySys) group.</p>
+      <p>My research focuses on the IoT security. Most recently I've been interested in applying model checking tools to verify the SmartThings smartApps.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-fluid mx-auto rounded-circle" style="width: 188px; height: 281px;" src="img/headshot.jpeg" data-holder-rendered="true">
+    </div>
+  </div>
+</div>
+
+
+<!--=====================advantages=========================================-->
+    <div class="container advantages">
+      <div class="row">
+        <h2 class="page-header text-center">Education<small>
+          <br>
+          </small></h1>
+      </div><!--End of row-->
+      <hr/>
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-sm">
+          <img src="img/uci.jpg">
+          <h2>University of California, Irvine</h2>
+          <p>2015-present
+            <br> M.S. in Computer Science
+            <br> School: Donald Bren School of Information and Computer Sciences
+            <br> GPA: 3.839/4</p>
+          
+        </div><!-- /.span4 -->
+        <div class="col-sm">
+          <img src="img/pku.png">
+          <h2>Peking University</h2>
+          <p>2012-2015
+            <br> M.S. in Computer Applied Technology
+            <br> School: Electronic and Computer Engineering
+            <br> GPA: 3.90/4</p>
+          
+        </div><!-- /.span4 -->
+        <div class="col-sm">
+          <img src="img/cqu.jpg">
+          <h2>Chongqing University</h2>
+          <p>
+            2008-2012
+            <br> B.S. in Network Engineering
+            <br> School: College of Computer Science
+            <br> GPA: 3.83/4
+            <br> rank: 1<sup>st</sup>/289
+          </p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+      
+    </div>
+
+
+<div class="container">
+  <h2>Recent Projects</h2>
+  <hr />
+  <ol>
+    <li>Model Checking SmartThings SmartApps</li>
+    <ul>
+      <li>Transform the Groovy source code of Samsung SmartThings SmartApps to PSharp code;</li>
+      <li>Use PSharp to model check the transformed code;</li>
+      <li>Use the generated .dgml  le to verify the communication channel of the SmartApps.</li>
+    </ul>
+    <br>
+    <li>Vigilia: Securing Smart Home Edge Computing</li>
+    <ul>
+      <li>Provides a programming model (Set and Relation) for developing applications;</li>
+      <li>When users install the application, Vigilia runtime instruments the application code;</li>
+      <li>Generates the routing policy based on the devices assigned by the users;</li>
+      <li>Blocks the unwanted communication by the generated routing policy.</li>
+    </ul>
+    <br>
+    <li>PerfBlower: Quickly Detecting Memory-Related Performance Problems via Amplication</li>
+  </ol>
+  <br>
+  <br>
+</div>
+    
+
+
+
+
+<div class="container">
+  <h2>Publications</h2>
+  <hr />
+  <ol>
+    <li>Rahmadi Trimananda, Ali Younis, Bojun Wang, Bin Xu, Brian Demsky, Harry Xu, “Vigilia: Securing Smart Home Edge Computing,” ACM/IEEE Symposium on Edge Computing 2018 (SEC ’18).</li>
+    <br>
+    <li>Bojun Wang, Cheng Cai, Quan Zhou, “A Rational Threshold Signature Model and Protocol Based on Di erent Permission”, Journal of Applied Mathematics, Vol.2014, 2014. [<a href="https://www.hindawi.com/journals/jam/2014/176085/">pdf</a>]</li>
+    <br>
+    <li>CAI Cheng, WANG Bojun, Ditta Allah, YANG Yi, “A Rational Secret Sharing Scheme against Coalition Based on Nash equilibrium and Neighbor’s Strategy,” Chinese Journal of Electronics, Vol.23, No.3, July, 2014. [<a href="https://pdfs.semanticscholar.org/046e/1e52775618f022350a9a8950996faed6f70c.pdf">pdf</a>]</li>
+    <br>
+    <li>Cheng Cai, Yuesheng Zhu, Bojun Wang, “A Novel Mutual Authentication Scheme For Smart Card Without Information Leakage,” 17th IEEE International Conference on Computational Science and Engineering (CSE) , 2014. [<a href="https://ieeexplore.ieee.org/document/7023643/">pdf</a>]</li>
+    <br>
+
+  </ol>
+</div>
+
+<div class="container">
+  <h2>Skills</h2>
+  <hr />
+  familar: Java, C++/C
+  <br />
+  working knowledge: Groovy, PSharp, HTML/CSS, Python, Linux Shell, LaTeX
+  <br>
+  <br>
+</div>
+
+<div class="container">
+<address>
+  <h2>Contact info</h2>
+  <hr />
+  <p>email: bojunw2@uci.edu
+  <br>
+  office: Donald Bren Hall 3243</p>
+</address>
+</div>
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Carousel Template for Bootstrap_files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./Carousel Template for Bootstrap_files/popper.min.js"></script>
+    <script src="./Carousel Template for Bootstrap_files/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="./Carousel Template for Bootstrap_files/holder.min.js"></script>
+</body>
+</html>

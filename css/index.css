@@ -1,0 +1,140 @@
+#dimission {
+	width: 100%;
+	background-color: #06406c;
+	color: white;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+	padding-top: 55px;
+	padding-bottom: 50px;
+}
+#dimission h2 {
+	margin-top: 35px;
+}
+.pText {
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	color: white;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 25px;
+	margin-bottom: 60px;
+}
+
+#nuclear {
+	width: 100%;
+	background-color: #cc4037;
+	color: white;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+	padding-top: 55px;
+	padding-bottom: 50px;
+}
+.transition {
+	padding: 30px;
+}
+.down-arrow {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	margin-top:0;
+	margin-bottom:0px;
+	text-align: center;
+	color: #181818;
+}
+#footer {
+	padding-top: 20px;
+	font-size: 18px;
+	text-align: right;
+}
+/*====================================advantages====================================*/
+.advantages img {
+	height: 140px;
+	width: 140px;
+}
+.advantages .page-header {
+	padding-top: 10px;
+}
+.advantages {
+	padding-bottom: 60px;
+	text-align:center;
+}
+/*======end of advantages=====*/
+
+#vault-door {
+	margin-top: 30px;
+	margin-left: 60px;
+}
+::-moz-selection { /* Code for Firefox */
+    color: #003333;
+    background: #cf8a05;
+}
+
+::selection {
+    color: #003333; 
+    background: #cf8a05;
+}
+/* RESPONSIVE CSS
+ -------------------------------------------------- */
+/* For the Pad size */
+@media (max-width: 979px) {
+	#dimission {
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+/* For the phone size */
+@media (max-width: 767px) {
+	body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#myCarousel {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#dimission {
+		width: 100%;
+		position: relative;
+		/*margin-left: -20px;
+		 margin-right: -20px;*/
+		margin-bottom: 20px;
+	}
+	#vault-door {
+		width: 70%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#nuclear-keys {
+		width: 70%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+/*
+     FILE ARCHIVED ON 17:14:12 Oct 28, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:03:07 Jul 22, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 115.52 (3)
+  esindex: 0.007
+  captures_list: 133.342
+  CDXLines.iter: 13.171 (3)
+  PetaboxLoader3.datanode: 146.106 (5)
+  exclusion.robots: 0.193
+  exclusion.robots.policy: 0.18
+  RedisCDXSource: 1.523
+  PetaboxLoader3.resolve: 309.51 (2)
+  load_resource: 424.136
+*/
