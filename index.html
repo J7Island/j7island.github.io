@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Bojun (Jessica) Wang</a>
+  <a class="navbar-brand" href="#">Jessica's Homepage</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -18,76 +18,21 @@
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
       <!--<a class="nav-item nav-link" href="#">About</a>-->
-      <a class="nav-item nav-link" href="#">Resume</a>
+      <a class="nav-item nav-link" href="pdf/bojun_resume.pdf">Resume</a>
       <!--<a class="nav-item nav-link" href="#">Contact me</a>-->
     </div>
   </div>
 
 </nav>
 <br>
-<br>
-<br>
-
-
-
-<!--<div class="carousel-wrapper">
-      <div id="myCarousel" class="carousel slide">
-        <ol class="carousel-indicators middle">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="item active" id="slide1">
-            <img src="/web/20170327091253im_/http://www.secret-sharing.com/figures/construction.png" width="795" height="50" alt=""/>
-            <div class="carousel-caption">
-              <h4>Construction Phase</h4>
-              <p>
-                A secret is splitted into multiple parts called shares during the construction phase. The most popular way of doing this is the Fiar Shamir's polynomial method in his paper "How to share a secret."
-              </p>
-            </div>
-          </div>
-          <div class="item" id="slide2">
-            <!--
-            <img src="assets/carousel_img/slide-02.jpg" alt="">
-            -->
-            <!--
-            <img src="/web/20170327091253im_/http://www.secret-sharing.com/figures/distribution.png" width="778" height="46" alt="">
-            <div class="carousel-caption">
-              <h4>Distrubing Phase</h4>
-              <p>
-                The shares of the secret was transfered in a secure chanel to its legal owners in this phase, after that, all the shares and secret must be deleted.
-              </p>
-            </div>
-          </div>
-          <div class="item" id="slide3">-->
-            <!--
-            <img src="assets/carousel_img/slide-03.jpg" alt="">-->
-            <!--
-            <img src="/web/20170327091253im_/http://www.secret-sharing.com/figures/reconstruction.png" width="900" height="46" alt="">
-            <div class="carousel-caption">
-              <h4>Reconstruction Phase</h4>
-              <p>
-                The owners of shares reconstruct the original secret togethor in this phase. If they collaborate correctly, they will get the right secret.
-              </p>
-            </div>
-          </div>
-        </div>
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-      </div>
-    </div><!--carousel-->
-  
-
-
 
 
 <div class="container marketing">
   <div class="row featurette">
     <div class="col-md-7">
-      <h2 class="featurette-heading">About me</h2>
+      <h1 class="featurette-heading">Bojun Wang</h1>
       <p>I am a 3rd year PhD student in the <a href="https://www.ics.uci.edu/">Department of Computer Science</a> at University of California, Irvine, working with <a href="http://web.cs.ucla.edu/~harryxu/">Prof. Harry Xu</a> and the Analysis for Large-Scale Systems (AnalySys) group.</p>
-      <p>My research focuses on the IoT security. Most recently I've been interested in applying model checking tools to verify the SmartThings smartApps.</p>
+      <p>My research focuses on the Network Security. Most recently I've been interested in IoT security, specifically, applying model checking tools to verify the SmartThings SmartApps.</p>
     </div>
     <div class="col-md-5">
       <img class="featurette-image img-fluid mx-auto rounded-circle align-middle" style="width: 100%; max-width: 300px; " src="img/headshot.png" data-holder-rendered="true">
@@ -147,20 +92,28 @@
   <ol>
     <li>Model Checking SmartThings SmartApps</li>
     <ul>
-      <li>Transform the Groovy source code of Samsung SmartThings SmartApps to PSharp code;</li>
-      <li>Use PSharp to model check the transformed code;</li>
+      <li>Summary: detect smart home apps' vulnerabilities.</li>
+      <li>Transform the Groovy source code of Samsung SmartThings SmartApps to PSharp code.</li>
+      <li>Use PSharp to model check the transformed code.</li>
       <li>Use the generated .dgml  le to verify the communication channel of the SmartApps.</li>
     </ul>
     <br>
     <li>Vigilia: Securing Smart Home Edge Computing</li>
     <ul>
-      <li>Provides a programming model (Set and Relation) for developing applications;</li>
-      <li>When users install the application, Vigilia runtime instruments the application code;</li>
-      <li>Generates the routing policy based on the devices assigned by the users;</li>
-      <li>Blocks the unwanted communication by the generated routing policy.</li>
+      <li>Summary: prevent mailicious communications in smart home apps.</li>
+      <li>Provide a programming model (Set and Relation) for developing applications.</li>
+      <li>Instrument the application code at the phase of the installation.</li>
+      <li>Generate the routing policy based on the con gurations users generated.</li>
+      <li>Block the malicious communication by the generated routing policy.</li>
     </ul>
     <br>
     <li>PerfBlower: Quickly Detecting Memory-Related Performance Problems via Amplication</li>
+    <ul>
+      <li>Summary: detect Java applications’ performance bugs.</li>
+      <li>Use the Instrumentation Speci cation Language to describe and detect memory related performance bugs.</li>
+      <li>Use C to build a data structure invariants detector.</li>
+      <li>Hack the JVM and use JVM tool interface (JVMTI) to instrument the application code, for detecting the allocation sites that cause data structure invariants.</li>
+    </ul>
   </ol>
   <br>
   <br>
@@ -178,20 +131,24 @@
     <br>
     <li>Bojun Wang, Cheng Cai, Quan Zhou, “A Rational Threshold Signature Model and Protocol Based on Di erent Permission”, Journal of Applied Mathematics, Vol.2014, 2014. [<a href="https://www.hindawi.com/journals/jam/2014/176085/">pdf</a>]</li>
     <br>
-    <li>CAI Cheng, WANG Bojun, Ditta Allah, YANG Yi, “A Rational Secret Sharing Scheme against Coalition Based on Nash equilibrium and Neighbor’s Strategy,” Chinese Journal of Electronics, Vol.23, No.3, July, 2014. [<a href="https://pdfs.semanticscholar.org/046e/1e52775618f022350a9a8950996faed6f70c.pdf">pdf</a>]</li>
-    <br>
     <li>Cheng Cai, Yuesheng Zhu, Bojun Wang, “A Novel Mutual Authentication Scheme For Smart Card Without Information Leakage,” 17th IEEE International Conference on Computational Science and Engineering (CSE) , 2014. [<a href="https://ieeexplore.ieee.org/document/7023643/">pdf</a>]</li>
     <br>
-
+    <li>Cheng Cai, Bojun Wang, Allah Ditta, Yi Yang, “A Rational Secret Sharing Scheme against Coalition Based on Nash equilibrium and Neighbor’s Strategy,” Chinese Journal of Electronics, Vol.23, No.3, July, 2014. [<a href="https://pdfs.semanticscholar.org/046e/1e52775618f022350a9a8950996faed6f70c.pdf">pdf</a>]</li>
+    <br>
   </ol>
 </div>
 
 <div class="container">
   <h2>Skills</h2>
   <hr />
-  familar: Java, C++/C
+  <p>
+    Fluent: Java, C++/C
   <br />
-  working knowledge: Groovy, PSharp, HTML/CSS, Python, Linux Shell, LaTeX
+  Knowledgeable: Groovy, PSharp, HTML/CSS, Python, Shell, LaTeX
+  <br>
+  Tools: Linux, JVM, Emacs, Eclipse, Visual Studio, Git, Make
+  </p>
+  
   <br>
   <br>
 </div>
